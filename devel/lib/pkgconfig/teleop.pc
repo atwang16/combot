@@ -3,6 +3,6 @@ prefix=/home/austin/combot/devel
 Name: teleop
 Description: Description of teleop
 Version: 0.0.1
-Cflags: 
+Cflags: -I/home/austin/combot/devel/include
 Libs: -L/home/austin/combot/devel/lib 
-Requires: 
+Requires: roscpp rospy std_msgs message_runtime

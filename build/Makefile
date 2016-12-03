@@ -257,160 +257,69 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_nodejs
+# Target rules for targets named teleop_genpy
 
 # Build rule for target.
-std_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
-.PHONY : std_msgs_generate_messages_nodejs
+teleop_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_genpy
+.PHONY : teleop_genpy
 
 # fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
+teleop_genpy/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_genpy.dir/build.make teleop/CMakeFiles/teleop_genpy.dir/build
+.PHONY : teleop_genpy/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_lisp
+# Target rules for targets named teleop_generate_messages_nodejs
 
 # Build rule for target.
-std_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
-.PHONY : std_msgs_generate_messages_lisp
+teleop_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_generate_messages_nodejs
+.PHONY : teleop_generate_messages_nodejs
 
 # fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
+teleop_generate_messages_nodejs/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_generate_messages_nodejs.dir/build.make teleop/CMakeFiles/teleop_generate_messages_nodejs.dir/build
+.PHONY : teleop_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_eus
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
 
 # Build rule for target.
-std_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
-.PHONY : std_msgs_generate_messages_eus
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
 
 # fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f teleop/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make teleop/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_nodejs
+# Target rules for targets named _teleop_generate_messages_check_deps_robotcmd
 
 # Build rule for target.
-roscpp_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_nodejs
-.PHONY : roscpp_generate_messages_nodejs
+_teleop_generate_messages_check_deps_robotcmd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _teleop_generate_messages_check_deps_robotcmd
+.PHONY : _teleop_generate_messages_check_deps_robotcmd
 
 # fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
+_teleop_generate_messages_check_deps_robotcmd/fast:
+	$(MAKE) -f teleop/CMakeFiles/_teleop_generate_messages_check_deps_robotcmd.dir/build.make teleop/CMakeFiles/_teleop_generate_messages_check_deps_robotcmd.dir/build
+.PHONY : _teleop_generate_messages_check_deps_robotcmd/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_lisp
+# Target rules for targets named teleop_generate_messages_eus
 
 # Build rule for target.
-roscpp_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
-.PHONY : roscpp_generate_messages_lisp
+teleop_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_generate_messages_eus
+.PHONY : teleop_generate_messages_eus
 
 # fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_py
-
-# Build rule for target.
-std_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_py.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_eus
-
-# Build rule for target.
-roscpp_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_eus.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_cpp
-
-# Build rule for target.
-roscpp_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
-
-# Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_nodejs
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_nodejs
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f teleop/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make teleop/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_py
-
-# Build rule for target.
-roscpp_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_py.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_py
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f teleop/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make teleop/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
+teleop_generate_messages_eus/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_generate_messages_eus.dir/build.make teleop/CMakeFiles/teleop_generate_messages_eus.dir/build
+.PHONY : teleop_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_cpp
@@ -426,6 +335,123 @@ rosgraph_msgs_generate_messages_cpp/fast:
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_py
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_py
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_py/fast:
+	$(MAKE) -f teleop/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make teleop/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+.PHONY : rosgraph_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_py
+
+# Build rule for target.
+roscpp_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_py
+
+# fast build rule for target.
+roscpp_generate_messages_py/fast:
+	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_py.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named teleop_generate_messages_py
+
+# Build rule for target.
+teleop_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_generate_messages_py
+.PHONY : teleop_generate_messages_py
+
+# fast build rule for target.
+teleop_generate_messages_py/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_generate_messages_py.dir/build.make teleop/CMakeFiles/teleop_generate_messages_py.dir/build
+.PHONY : teleop_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_nodejs
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_nodejs
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f teleop/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make teleop/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named teleop_genlisp
+
+# Build rule for target.
+teleop_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_genlisp
+.PHONY : teleop_genlisp
+
+# fast build rule for target.
+teleop_genlisp/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_genlisp.dir/build.make teleop/CMakeFiles/teleop_genlisp.dir/build
+.PHONY : teleop_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_cpp
+
+# Build rule for target.
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_eus
+
+# Build rule for target.
+roscpp_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_eus
+.PHONY : roscpp_generate_messages_eus
+
+# fast build rule for target.
+roscpp_generate_messages_eus/fast:
+	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_eus.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_eus.dir/build
+.PHONY : roscpp_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_py.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -439,17 +465,147 @@ rosgraph_msgs_generate_messages_eus/fast:
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+# Target rules for targets named roscpp_generate_messages_lisp
 
 # Build rule for target.
-rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
-.PHONY : rosgraph_msgs_generate_messages_lisp
+roscpp_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_lisp
+.PHONY : roscpp_generate_messages_lisp
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f teleop/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make teleop/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+roscpp_generate_messages_lisp/fast:
+	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+.PHONY : roscpp_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named teleop_generate_messages_cpp
+
+# Build rule for target.
+teleop_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_generate_messages_cpp
+.PHONY : teleop_generate_messages_cpp
+
+# fast build rule for target.
+teleop_generate_messages_cpp/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_generate_messages_cpp.dir/build.make teleop/CMakeFiles/teleop_generate_messages_cpp.dir/build
+.PHONY : teleop_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_nodejs
+
+# Build rule for target.
+roscpp_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_nodejs
+.PHONY : roscpp_generate_messages_nodejs
+
+# fast build rule for target.
+roscpp_generate_messages_nodejs/fast:
+	$(MAKE) -f teleop/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make teleop/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+.PHONY : roscpp_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_eus
+
+# Build rule for target.
+std_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_eus
+.PHONY : std_msgs_generate_messages_eus
+
+# fast build rule for target.
+std_msgs_generate_messages_eus/fast:
+	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+.PHONY : std_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_lisp
+
+# Build rule for target.
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_nodejs
+
+# Build rule for target.
+std_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f teleop/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make teleop/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named teleop_generate_messages
+
+# Build rule for target.
+teleop_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_generate_messages
+.PHONY : teleop_generate_messages
+
+# fast build rule for target.
+teleop_generate_messages/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_generate_messages.dir/build.make teleop/CMakeFiles/teleop_generate_messages.dir/build
+.PHONY : teleop_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named teleop_gencpp
+
+# Build rule for target.
+teleop_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_gencpp
+.PHONY : teleop_gencpp
+
+# fast build rule for target.
+teleop_gencpp/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_gencpp.dir/build.make teleop/CMakeFiles/teleop_gencpp.dir/build
+.PHONY : teleop_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named teleop_gennodejs
+
+# Build rule for target.
+teleop_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_gennodejs
+.PHONY : teleop_gennodejs
+
+# fast build rule for target.
+teleop_gennodejs/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_gennodejs.dir/build.make teleop/CMakeFiles/teleop_gennodejs.dir/build
+.PHONY : teleop_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named teleop_geneus
+
+# Build rule for target.
+teleop_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_geneus
+.PHONY : teleop_geneus
+
+# fast build rule for target.
+teleop_geneus/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_geneus.dir/build.make teleop/CMakeFiles/teleop_geneus.dir/build
+.PHONY : teleop_geneus/fast
+
+#=============================================================================
+# Target rules for targets named teleop_generate_messages_lisp
+
+# Build rule for target.
+teleop_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_generate_messages_lisp
+.PHONY : teleop_generate_messages_lisp
+
+# fast build rule for target.
+teleop_generate_messages_lisp/fast:
+	$(MAKE) -f teleop/CMakeFiles/teleop_generate_messages_lisp.dir/build.make teleop/CMakeFiles/teleop_generate_messages_lisp.dir/build
+.PHONY : teleop_generate_messages_lisp/fast
 
 # Help Target
 help:
@@ -471,21 +627,33 @@ help:
 	@echo "... install/strip"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... teleop_genpy"
+	@echo "... teleop_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... _teleop_generate_messages_check_deps_robotcmd"
+	@echo "... teleop_generate_messages_eus"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... roscpp_generate_messages_py"
+	@echo "... teleop_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... teleop_genlisp"
+	@echo "... roscpp_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_py"
+	@echo "... rosgraph_msgs_generate_messages_eus"
+	@echo "... roscpp_generate_messages_lisp"
+	@echo "... teleop_generate_messages_cpp"
+	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... std_msgs_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... teleop_generate_messages"
+	@echo "... teleop_gencpp"
+	@echo "... teleop_gennodejs"
+	@echo "... teleop_geneus"
+	@echo "... teleop_generate_messages_lisp"
 .PHONY : help
 
 
