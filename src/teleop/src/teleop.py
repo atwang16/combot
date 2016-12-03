@@ -35,13 +35,15 @@ if __name__ == '__main__':
                 cmdMsg.drive_fvel = -1.0
 
             if key == 'a':
-                cmdMsg.theta = 1.0
+                cmdMsg.drive_rvel = 1.0
             elif key == 'd':
-                cmdMsg.theta = 1.0
+                cmdMsg.drive_rvel = -1.0
+
             if key == 'l':
                 cmdMsg.flipper = 1.0
             elif key == 'k':
                 cmdMsg.flipper = 0.5
+
             if key == 'q':
                 break
 
