@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/austin/combot/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/austin/combot/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/austin/combot/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/austin/combot/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/austin/combot/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/austin/combot/src:$ROS_PACKAGE_PATH"
