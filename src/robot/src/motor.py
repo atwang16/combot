@@ -9,6 +9,9 @@ REVERSE = 0
 HIGH = 1
 LOW = 0
 
+def cap(speed):
+    return max(min(cap, 1.0), -1.0)
+
 class Motor():
     def __init__(self, pwm_pin, reverse):
         self.pwm = pwm_pin
@@ -43,10 +46,10 @@ class Motor():
             self.setDirection(FORWARD)
         else:
             self.setDirection(REVERSE)
-        self.mtr.ChangeDutyCycle(calcSpeed(speed))
+        self.mtr.ChangeDutyCycle(self.calcSpeed(cap(speed)))
 
     def stop(self):
-        self.mtr.ChangeDutyCycle(calcSpeed(0.0))
+        self.mtr.ChangeDutyCycle(self.calcSpeed(0.0))
 
 class SFMotor(Motor):
     def __init__(self, pwm_pin, in1_pin, in2_pin, reverse):
