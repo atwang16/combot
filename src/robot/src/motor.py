@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import GPIO as IO
 import time
 import abc

@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import rospy
-from std_msgs.msg import String # create new message type
 
 import sys, select, termios, tty
 
@@ -13,7 +12,7 @@ def getKey():
 	return key
 
 def initPublisher():
-    pub = rospy.Publisher('command', String, queue_size=1)
+    pub = rospy.Publisher('command', robotcmd, queue_size=1)
     rospy.init_node('controller', anonymous=True)
     rate = rospy.Rate(30) # in hertz
     return (pub, rate)
