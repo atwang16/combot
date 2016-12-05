@@ -1,6 +1,19 @@
-source devel/setup.bash
 roslaunch launcher spektrum_mk1.launch (launches nodes for robot)
 
+---MASTER---
+source devel/setup.bash
+export ROS_MASTER_URI=http://localhost:11311
+export ROS_IP=#My IP
+roscore
+rosrun teleop tele.py
+
+---ROBOT---
+source devel/setup.bash
+export ROS_MASTER_URI=http://[ComputerIP]:11311
+export ROS_IP=#Robot IP
+rosrun controller robot.py
+
+---BUILD---
 catkin_make
 catkin_make install
 

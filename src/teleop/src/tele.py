@@ -12,8 +12,8 @@ def getKey():
 	return key
 
 def initPublisher():
-    pub = rospy.Publisher('command', robotcmd, queue_size=1)
     rospy.init_node('controller', anonymous=True)
+    pub = rospy.Publisher('command', robotcmd, queue_size=1)
     rate = rospy.Rate(30) # in hertz
     return (pub, rate)
 
@@ -30,14 +30,14 @@ if __name__ == '__main__':
             cmdMsg.flipper = 0.0
 
             key = getKey()
-            if key == 'w':
+            if key == '1' or key == '2' or key == '3':
                 cmdMsg.drive_fvel = 1.0
-            elif key == 's':
+            elif key == 'a' or key == 's' or key == 'd':
                 cmdMsg.drive_fvel = -1.0
 
-            if key == 'a':
+            if key == '1' or key == 'q' or key == 'a':
                 cmdMsg.drive_rvel = 1.0
-            elif key == 'd':
+            elif key == '3' or key =='e' or key == 'd':
                 cmdMsg.drive_rvel = -1.0
 
             if key == 'l':
@@ -45,7 +45,7 @@ if __name__ == '__main__':
             elif key == 'k':
                 cmdMsg.flipper = 0.5
 
-            if key == 'q':
+            if key == 't':
                 break
 
             pub.publish(cmdMsg)
