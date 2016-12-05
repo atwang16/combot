@@ -1,0 +1,7 @@
+<launch>
+  <group ns="spektrum">
+    <node pkg="teleop" name="teleoperated" type="tele.py"/>
+    <node pkg="controller" name="robot" type="robot.py"/>
+  </group>
+
+</launch>

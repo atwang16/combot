@@ -1,4 +1,11 @@
 source devel/setup.bash
+roslaunch launcher spektrum_mk1.launch (launches nodes for robot)
+
+catkin_make
+catkin_make install
+
+Make node executable:
+chmod +x filename
 
 Git:
 git add *

@@ -117,7 +117,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/austin/combot/build/gtest/cmake_install.cmake")
-  include("/home/austin/combot/build/robot/cmake_install.cmake")
+  include("/home/austin/combot/build/controller/cmake_install.cmake")
+  include("/home/austin/combot/build/launcher/cmake_install.cmake")
   include("/home/austin/combot/build/teleop/cmake_install.cmake")
 
 endif()

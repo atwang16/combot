@@ -2,7 +2,10 @@
 
 import rospy
 import motor
+import GPIO as IO
 from teleop.msg import robotcmd
+
+IO.setmode(GPIO.BOARD)
 
 PWMA = 11
 AIN1 = 13

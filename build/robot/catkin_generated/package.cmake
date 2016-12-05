@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "robot")
 set(robot_VERSION "0.0.0")
-set(robot_MAINTAINER "austin <austin@todo.todo>")
+set(robot_MAINTAINER "Austin Wang <austinw@mit.edu>")
 set(robot_PACKAGE_FORMAT "1")
 set(robot_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
 set(robot_BUILD_EXPORT_DEPENDS "roscpp" "rospy" "std_msgs")

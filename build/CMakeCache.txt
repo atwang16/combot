@@ -249,6 +249,12 @@ _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
+//Value Computed by CMake
+controller_BINARY_DIR:STATIC=/home/austin/combot/build/controller
+
+//Value Computed by CMake
+controller_SOURCE_DIR:STATIC=/home/austin/combot/src/controller
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
 
@@ -295,6 +301,12 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+launcher_BINARY_DIR:STATIC=/home/austin/combot/build/launcher
+
+//Value Computed by CMake
+launcher_SOURCE_DIR:STATIC=/home/austin/combot/src/launcher
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
@@ -305,10 +317,10 @@ message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 
 //Value Computed by CMake
-robot_BINARY_DIR:STATIC=/home/austin/combot/build/robot
+robot_BINARY_DIR:STATIC=/home/austin/combot/build/controller
 
 //Value Computed by CMake
-robot_SOURCE_DIR:STATIC=/home/austin/combot/src/robot
+robot_SOURCE_DIR:STATIC=/home/austin/combot/src/controller
 
 //Value Computed by CMake
 robot_msgs_BINARY_DIR:STATIC=/home/austin/combot/build/robot_msgs
@@ -451,7 +463,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

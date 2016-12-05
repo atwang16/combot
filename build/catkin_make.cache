@@ -1,2 +1,2 @@
-robot:teleop
+controller:launcher:teleop
 -DCATKIN_DEVEL_PREFIX=/home/austin/combot/devel -DCMAKE_INSTALL_PREFIX=/home/austin/combot/install -G Unix Makefiles
